@@ -44,4 +44,12 @@ public class Noticia {
     @ManyToOne
     private Usuario usuario;  
 
+    public Noticia(String titulo, String corpo, LocalDateTime dataPublicacao, String imagem_url, Categoria categoria){
+        this.titulo = titulo;
+        this.corpo = corpo;
+        this.dataPublicacao = dataPublicacao;
+        this.imagem_url = imagem_url;
+        this.categoria = categoria;
+    }
+
 }

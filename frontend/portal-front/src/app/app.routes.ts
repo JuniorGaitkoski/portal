@@ -3,7 +3,7 @@ import { HomeComponent } from './home/home.component';
 import { CategoriaComponent } from './categoria/categoria.component';
 import { NoticiaComponent } from './noticia/noticia.component';
 import { CategoriaFormComponent } from './categoria/categoria-form/categoria-form.components';
-import { NoticiaFormComponent } from './noticia/noticia-from/noticia-from.component';
+import { NoticiaFormComponent } from './noticia/noticia-form/noticia-form.component';
 
 export const routes: Routes = [
     {path: 'home', component: HomeComponent},
